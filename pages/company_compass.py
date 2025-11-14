@@ -113,7 +113,7 @@ year_price_map = dict(zip(CO2_yearly_value_df["year"], CO2_yearly_value_df["pric
 # Create a mapping from year to price
      
     
-df=pd.read_csv(r"C:\Users\donat\Documents\PYTHON_CO2EUETS\data\verified_emissions_2024_en_elaborated.csv")
+df=pd.read_csv("data/verified_emissions_2024_en_elaborated.csv")
 df.columns = df.columns.str.strip()
 
 #---- Year selection 
