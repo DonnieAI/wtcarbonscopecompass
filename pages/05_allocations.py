@@ -61,7 +61,7 @@ st.divider()  # <--- Streamlit's built-in separator
 #---------------------------------------------------------------------------------------------------------------------------
 
 
-df=pd.read_csv("data\Data details by year.csv")
+df=pd.read_csv("data/Data details by year.csv")
 
 df['Year'] = pd.to_datetime(df['Year'], format='%Y')
 #df_ghg_eu_sector['year'].dt.year
